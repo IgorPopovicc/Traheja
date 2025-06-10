@@ -1,0 +1,130 @@
+$green: #33ff5a;
+$black: #111;
+$white: #fff;
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $white;
+  border-bottom: 1px solid #eee;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0.8rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  min-height: 100px;
+
+  .logo {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 90px;
+      width: auto;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+
+    li a {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 1.1rem;
+      color: $black;
+      text-decoration: none;
+
+      &:hover {
+        color: $green;
+      }
+    }
+
+    .language-switch {
+      display: flex;
+      gap: 0.75rem;
+      margin-left: 1rem;
+
+      span {
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: $green;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1100;
+  }
+
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+
+    .nav-links {
+      display: none;
+
+      &.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: $white;
+        padding: 1.5rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        gap: 1.5rem;
+
+        li a {
+          font-size: 1.2rem;
+        }
+
+        .language-switch {
+          justify-content: center;
+          gap: 1.2rem;
+          margin-left: 0;
+        }
+      }
+    }
+
+    .nav-container {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-top: 0;
+
+        img {
+          height: 80px;
+          width: auto;
+        }
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,20 @@
+<nav class="navbar">
+  <div class="nav-container">
+    <button class="menu-toggle" (click)="toggleMenu()">☰</button>
+
+    <a routerLink="/" class="logo">
+      <img src="assets/images/logo/logo.svg" alt="Traheja Logo">
+    </a>
+
+    <ul class="nav-links" [class.active]="isMenuOpen">
+      <li><a routerLink="/">HOME</a></li>
+      <li><a routerLink="/gallery">GALERIJA</a></li>
+      <li><a routerLink="/contact">KONTAKT</a></li>
+      <li><a routerLink="/about">O NAMA</a></li>
+      <li class="language-switch">
+        <span (click)="setLang('sr')">SR</span>
+        <span (click)="setLang('en')">EN</span>
+      </li>
+    </ul>
+  </div>
+</nav>
