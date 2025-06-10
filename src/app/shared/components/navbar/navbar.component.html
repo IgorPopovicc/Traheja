@@ -7,13 +7,14 @@
     </a>
 
     <ul class="nav-links" [class.active]="isMenuOpen">
-      <li><a routerLink="/">HOME</a></li>
-      <li><a routerLink="/gallery">GALERIJA</a></li>
-      <li><a routerLink="/contact">KONTAKT</a></li>
-      <li><a routerLink="/about">O NAMA</a></li>
+      <li><a routerLink="/">{{ 'NAV.HOME' | translate }}</a></li>
+      <li><a routerLink="/gallery">{{ 'NAV.GALLERY' | translate }}</a></li>
+      <li><a routerLink="/contact">{{ 'NAV.CONTACT' | translate }}</a></li>
+      <li><a routerLink="/" fragment="contact">{{ 'NAV.CONTACT' | translate }}</a></li>
+      <li><a routerLink="/" fragment="about">{{ 'NAV.ABOUT' | translate }}</a></li>
       <li class="language-switch">
-        <span (click)="setLang('sr')">SR</span>
-        <span (click)="setLang('en')">EN</span>
+        <span (click)="setLang('serbian')">SR</span>
+        <span (click)="setLang('english')">EN</span>
       </li>
     </ul>
   </div>

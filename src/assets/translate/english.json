@@ -1,0 +1,51 @@
+{
+  "NAV": {
+    "HOME": "HOME",
+    "GALLERY": "GALLERY",
+    "CONTACT": "CONTACT",
+    "ABOUT": "ABOUT US"
+  },
+  "HOME": {
+    "TITLE": "WE MAKE<br>FURNITURE FROM<br>YOUR IDEAS"
+  },
+  "FEATURES": {
+    "PRECISE": {
+      "TITLE": "Precise Craftsmanship",
+      "DESC": "We use modern tools for accurate wood processing."
+    },
+    "DESIGN": {
+      "TITLE": "Custom Design",
+      "DESC": "Every piece of furniture is unique and tailored to your needs."
+    },
+    "HANDMADE": {
+      "TITLE": "Handmade",
+      "DESC": "Traditional woodworking with attention to every detail."
+    },
+    "MATERIALS": {
+      "TITLE": "Quality Materials",
+      "DESC": "We use proven materials for long-lasting durability."
+    },
+    "FUNCTION": {
+      "TITLE": "Functionality",
+      "DESC": "We combine aesthetics with practicality."
+    },
+    "ECO": {
+      "TITLE": "Eco-Friendly Approach",
+      "DESC": "Responsible use of natural resources."
+    }
+  },
+  "ABOUT": {
+    "TITLE": "About Us",
+    "TEXT": "Traheja d.o.o. has been operating for nearly a quarter of a century, and since its founding in 2003, it has established a strong position in both domestic and international markets. Years of experience, commitment to quality, and numerous satisfied clients have made the Traheja name synonymous with reliability, functionality, and stylish furniture.\n\nOur extensive range of products — made from solid wood, particle board, and MDF — meets the needs of both business spaces and modern homes. Whether it’s office furniture or home furnishings, each piece is thoughtfully designed with attention to detail and user comfort."
+  },
+  "CONTACT": {
+    "FURNITURE": "furniture",
+    "CONTACT": "CONTACT",
+    "PHONE": "Phone",
+    "ADDRESS": "ADDRESS",
+    "EMAIL": "E-MAIL",
+    "HOURS": "WORKING HOURS",
+    "BUTTON": "CONTACT"
+  }
+
+}

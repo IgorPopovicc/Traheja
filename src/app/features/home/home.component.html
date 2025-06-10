@@ -1,1 +1,71 @@
-<p>home works!</p>
+<section class="hero">
+  <div class="hero-overlay">
+    <h1 [innerHTML]="'HOME.TITLE' | translate"></h1>
+  </div>
+</section>
+<section class="features" id="features">
+  <div class="feature" *ngFor="let item of features">
+    <span class="material-icons-outlined icon">{{ item.icon }}</span>
+    <h3>{{ item.title | translate }}</h3>
+    <p>{{ item.description | translate }}</p>
+  </div>
+</section>
+<section class="about" id="about">
+  <div class="about-overlay">
+    <div class="about-content">
+      <h2>{{ 'ABOUT.TITLE' | translate }}</h2>
+      <p>{{ 'ABOUT.TEXT' | translate }}</p>
+    </div>
+  </div>
+</section>
+<section class="contact-section" id="contact">
+  <div class="contact-container">
+    <div class="contact-map">
+      <iframe
+        src="https://www.google.com/maps?q=Save+Kovačevića+67i,+Beograd&output=embed"
+        allowfullscreen
+        loading="lazy"
+      ></iframe>
+    </div>
+
+    <div class="contact-info">
+      <div class="contact-logo">
+        <img src="assets/images/logo/logo.svg" alt="Traheja Logo" />
+      </div>
+
+      <div class="info-grid">
+        <div>
+          <h3>{{ 'CONTACT.CONTACT' | translate }}</h3>
+          <p>{{ 'CONTACT.PHONE' | translate }}<br />+38164 179 20 32</p>
+        </div>
+        <div>
+          <h3>{{ 'CONTACT.ADDRESS' | translate }}</h3>
+          <p>Beograd<br />Save Kovačevića 67i</p>
+        </div>
+        <div>
+          <h3>{{ 'CONTACT.EMAIL' | translate }}</h3>
+          <p>
+            <a
+              [href]="'mailto:' + 'gorantraheja@gmail.com'"
+              class="email-link"
+            >gorantraheja[at]gmail.com</a
+            >
+          </p>
+        </div>
+        <div>
+          <h3>{{ 'CONTACT.HOURS' | translate }}</h3>
+          <p>8h - 16h</p>
+        </div>
+      </div>
+
+      <a
+        class="contact-button"
+        [href]="'mailto:' + 'gorantraheja@gmail.com'"
+        rel="noopener noreferrer"
+      >
+        {{ 'CONTACT.BUTTON' | translate }}
+      </a>
+    </div>
+  </div>
+</section>
+

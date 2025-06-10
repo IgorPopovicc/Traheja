@@ -1,0 +1,51 @@
+{
+  "NAV": {
+    "HOME": "POČETNA",
+    "GALLERY": "GALERIJA",
+    "CONTACT": "KONTAKT",
+    "ABOUT": "O NAMA"
+  },
+  "HOME": {
+    "TITLE": "MI PRAVIMO<br>NAMEŠTAJ OD<br>VAŠIH IDEJA"
+  },
+  "FEATURES": {
+    "PRECISE": {
+      "TITLE": "Precizna izrada",
+      "DESC": "Koristimo savremene alate za preciznu obradu drveta."
+    },
+    "DESIGN": {
+      "TITLE": "Prilagođeni dizajn",
+      "DESC": "Svaki komad nameštaja je jedinstven i po vašoj meri."
+    },
+    "HANDMADE": {
+      "TITLE": "Ručno rađeno",
+      "DESC": "Tradicionalna izrada s pažnjom za svaki detalj."
+    },
+    "MATERIALS": {
+      "TITLE": "Kvalitetni materijali",
+      "DESC": "Koristimo proverene materijale za dug vek trajanja."
+    },
+    "FUNCTION": {
+      "TITLE": "Funkcionalnost",
+      "DESC": "Spajamo estetiku i praktičnost."
+    },
+    "ECO": {
+      "TITLE": "Ekološki pristup",
+      "DESC": "Odgovorna upotreba prirodnih resursa."
+    }
+  },
+  "ABOUT": {
+    "TITLE": "O nama",
+    "TEXT": "Traheja d.o.o. posluje već gotovo četvrt veka, a od osnivanja 2003. godine izgradila je snažnu poziciju na domaćem i međunarodnom tržištu. Dugogodišnje iskustvo, posvećenost kvalitetu i mnoštvo zadovoljnih klijenata učinili su da ime Traheja postane sinonim za pouzdanost, funkcionalnost i estetski nameštaj.\n\nNaš bogat asortiman proizvoda — izrađenih od masiva, univera i medijapana — uspešno odgovara na potrebe kako poslovnih prostora, tako i savremenih domova. Bilo da je reč o kancelarijskom nameštaju ili opremanju životnog prostora, svaki komad osmišljen je s pažnjom prema detaljima i udobnosti korisnika."
+  },
+  "CONTACT": {
+    "FURNITURE": "nameštaj",
+    "CONTACT": "KONTAKT",
+    "PHONE": "Telefon",
+    "ADDRESS": "ADRESA",
+    "EMAIL": "E-MAIL",
+    "HOURS": "RADNO VREME",
+    "BUTTON": "KONTAKT"
+  }
+
+}
