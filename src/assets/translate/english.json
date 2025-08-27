@@ -46,6 +46,30 @@
     "EMAIL": "E-MAIL",
     "HOURS": "WORKING HOURS",
     "BUTTON": "CONTACT"
+  },
+  "FOOTER": {
+    "CONTACT": "Contact",
+    "FOLLOW": "Follow us",
+    "RIGHTS": "All rights reserved.",
+    "JOB_TITLE": "Looking for a job?",
+    "JOB_DESC": "Send us your CV or contact us by email.",
+    "APPLY": "Contact us",
+    "WEBSITE_CREATED": "Website created by"
+  },
+  "OBJECT": {
+    "FRANS": "The interior of the Frans restaurant in Belgrade was crafted with special attention to elegance and ambient warmth. By combining natural materials, sophisticated detailing, and a functional layout, the space exudes comfort and luxury. Traheja delivered the complete interior, including custom-made furniture, wooden paneling, and unique decorative elements that enhance the restaurant’s authentic visual identity.",
+    "STAN_1": "Apartment 1 was carefully designed to provide a sense of spaciousness, brightness, and warmth. The interior reflects a modern aesthetic, while the functional layout suits the lifestyle of modern urban living. Traheja executed the project by producing custom kitchen furniture, wardrobes, wooden claddings, and features that contribute to the overall harmony and comfort of the space.",
+    "STAN_2": "Apartment 2 features a blend of elegant design and practical layout. Neutral tones, clean lines, and natural materials create a welcoming atmosphere. Traheja handled the entire interior fit-out, including tailor-made kitchen elements, furniture, and custom details that reflect the client’s personal style.",
+    "RAZNO": "Across a variety of residential interiors, Traheja has demonstrated a wide range of creativity and craftsmanship. Each project is designed to align with the user’s lifestyle, with a focus on custom furniture, functional layout solutions, and high-quality wooden finishes.",
+    "BIOLOGIQUE_RECHERCHE": "The Biologique Recherche office space was designed to reflect premium quality and professionalism. The layout combines minimalist design with refined materials. Traheja was responsible for the full interior execution, including workstations, product display elements, and decorative wall panels that elevate the luxurious ambiance.",
+    "GORENJE_HISENSE": "The Gorenje and Hisense Studio represents a contemporary showroom and workspace, with a focus on functionality and product presentation. Traheja crafted the entire interior using technically precise components, innovative design solutions, and materials that reflect the brand’s modern identity.",
+    "HOTEL_AMSTERDAM": "Hotel Amsterdam features a refined urban style that blends comfort with luxury. Traheja produced custom furniture, paneling, and functional components with a high level of finishing, contributing to the hotel’s elegant atmosphere and the guests’ overall experience.",
+    "KOD_DEDA_STAVRE": "Kod Deda Stavre restaurant blends tradition with modern comfort. The interior features warm wood tones, rustic accents, and carefully selected finishes. Traheja completed the full interior execution, including wooden wall cladding and solid furniture that create a welcoming and authentic environment.",
+    "MOKUM": "Mokum is a contemporary hospitality venue focused on clean lines, contrasting materials, and an open-space feel. Traheja crafted a functional and elegant interior, integrating unique wooden features, decorative elements, and paneling that give the space a distinctive and professional identity."
+  },
+  "CATEGORY": {
+    "STAMBENI_PROSTORI": "Residential Spaces",
+    "POSLOVNI_PROSTORI": "Commercial Spaces",
+    "UGOSTITELJSKI_OBJEKTI": "Hospitality Venues"
   }
-
 }

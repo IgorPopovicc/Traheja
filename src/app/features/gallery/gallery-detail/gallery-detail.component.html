@@ -1,0 +1,21 @@
+<div class="detail-wrapper">
+  <div class="detail-header">
+    <div class="text-section">
+      <h1>{{ gallery.name }}</h1>
+      <p>{{ gallery.description | translate }}</p>
+    </div>
+    <div class="image-section">
+      <img [src]="gallery.coverImage" [alt]="gallery.name" />
+    </div>
+  </div>
+
+  <div class="image-gallery">
+    <img
+      *ngFor="let image of gallery.images; let i = index"
+      [src]="image"
+      [alt]="gallery.name + ' ' + i"
+      (click)="open(i)"
+      loading="lazy"
+    />
+  </div>
+</div>

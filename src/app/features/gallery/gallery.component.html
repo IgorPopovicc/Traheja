@@ -1,0 +1,17 @@
+<div class="gallery-wrapper">
+  <div class="grid-container">
+    <div
+      class="gallery-card"
+      *ngFor="let item of displayItems; let i = index"
+      [class.center-last]="displayItems.length % 2 !== 0 && i === displayItems.length - 1"
+      (click)="onCardClick(item)"
+    >
+      <div class="image-container">
+        <img [src]="item.coverImage" [alt]="item.name" />
+        <div class="text-overlay">
+          <h2>{{ item.name | translate }}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

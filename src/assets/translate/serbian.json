@@ -46,6 +46,30 @@
     "EMAIL": "E-MAIL",
     "HOURS": "RADNO VREME",
     "BUTTON": "KONTAKT"
+  },
+  "FOOTER": {
+    "CONTACT": "Kontakt",
+    "FOLLOW": "Pratite nas",
+    "RIGHTS": "Sva prava zadržana.",
+    "JOB_TITLE": "Tražite posao?",
+    "JOB_DESC": "Pošaljite nam CV ili kontaktirajte nas putem mejla.",
+    "APPLY": "Kontaktiraj nas",
+    "WEBSITE_CREATED": "Website napravio"
+  },
+  "OBJECT": {
+    "FRANS": "Enterijer restorana Frans u Beogradu izrađen je s posebnom pažnjom prema eleganciji i toplini ambijenta. Kombinacijom prirodnih materijala, sofisticiranih detalja i funkcionalnog rasporeda, prostor odiše udobnošću i luksuzom. Traheja je izradila kompletan enterijer, uključujući nameštaj po meri, drvene obloge i unikatne dekorativne elemente koji doprinose autentičnom vizuelnom identitetu restorana.",
+    "STAN_1": "Stan 1 je pažljivo dizajniran kako bi pružio osećaj prostranosti, svetlosti i topline. Enterijer odiše modernom estetikom, dok funkcionalni raspored prostorija zadovoljava potrebe savremenog načina života. Traheja je realizovala projekat kroz izradu kuhinje po meri, garderobera, drvenih obloga i elemenata koji dodatno doprinose udobnosti i harmoniji prostora.",
+    "STAN_2": "Stan 2 karakteriše spoj elegantnog dizajna i praktičnih rešenja. U fokusu su neutralni tonovi, čiste linije i prirodni materijali koji stvaraju prijatan ambijent. Traheja je realizovala ceo enterijer kroz detaljnu izradu kuhinje, nameštaja po meri i elemenata koji reflektuju individualni stil klijenta.",
+    "RAZNO": "U okviru različitih stambenih enterijera, Traheja je demonstrirala širok spektar kreativnosti i preciznosti. Svaki projekat je pažljivo osmišljen kako bi odgovarao životnim navikama korisnika, uz poseban fokus na izradu unikatnog nameštaja, funkcionalnih rešenja i kvalitetne obrade drvenih površina.",
+    "BIOLOGIQUE_RECHERCHE": "Poslovni prostor brenda Biologique Recherche dizajniran je da reflektuje vrhunski kvalitet i profesionalnost. Prostor kombinuje minimalistički dizajn sa sofisticiranim materijalima. Traheja je bila zadužena za kompletnu izradu enterijera, uključujući radne površine, elemente za izlaganje i dekorativne zidne obloge koje doprinose luksuznoj atmosferi.",
+    "GORENJE_HISENSE": "Studio Gorenje i Hisense predstavlja savremeni izložbeni i radni prostor, sa akcentom na funkcionalnost i prezentaciju proizvoda. Traheja je izvela kompletan enterijer koristeći precizno izrađene elemente, tehnički zahtevne detalje i materijale koji podržavaju tehno-estetski identitet brenda.",
+    "HOTEL_AMSTERDAM": "U hotelu Amsterdam dominira rafinirani urbani stil koji kombinuje udobnost i luksuz. Traheja je realizovala nameštaj po meri, obloge i funkcionalne elemente uz visok nivo završne obrade, doprinoseći eleganciji hotelskog enterijera i prijatnom ugođaju gostiju.",
+    "KOD_DEDA_STAVRE": "Restoran Kod Deda Stavre spaja duh tradicije sa modernim komforom. Enterijer obiluje toplim drvenim tonovima, rustičnim detaljima i pažljivo biranim oblogama. Traheja je kompletno izradila stolarske elemente – od zidnih obloga do masivnog nameštaja – koji zajedno kreiraju domaćinsku i autentičnu atmosferu.",
+    "MOKUM": "Ugostiteljski objekat Mokum dizajniran je u savremenom duhu, sa naglaskom na čiste linije, kontrastne materijale i otvoren prostor. Traheja je izradila funkcionalan i elegantan enterijer sa specifičnim drvenim elementima, oblogama i detaljima koji prostoru daju identitet i profesionalni ton."
+  },
+  "CATEGORY": {
+    "STAMBENI_PROSTORI": "Stambeni prostori",
+    "POSLOVNI_PROSTORI": "Poslovni prostori",
+    "UGOSTITELJSKI_OBJEKTI": "Ugostiteljski objekti"
   }
-
 }

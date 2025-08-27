@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import {Router, RouterModule} from '@angular/router';
 import { TranslatePipe, TranslateService } from "@ngx-translate/core";
 
 @Component({
@@ -13,9 +13,9 @@ import { TranslatePipe, TranslateService } from "@ngx-translate/core";
 export class NavbarComponent {
   isMenuOpen = false;
 
-  constructor(private translate: TranslateService) {
-    const savedLang = localStorage.getItem('lang') || 'sr';
-    this.translate.setDefaultLang('sr');
+  constructor(private translate: TranslateService, private router: Router) {
+    const savedLang = localStorage.getItem('lang') || 'serbian';
+    this.translate.setDefaultLang('serbian');
     this.translate.use(savedLang);
   }
 
@@ -27,4 +27,15 @@ export class NavbarComponent {
     this.translate.use(lang);
     localStorage.setItem('lang', lang);
   }
+
+  scrollTo(fragment: string): void {
+    if (this.router.url.includes(`#${fragment}`)) {
+      this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
+        this.router.navigate(['/'], { fragment });
+      });
+    } else {
+      this.router.navigate(['/'], { fragment });
+    }
+  }
+
 }

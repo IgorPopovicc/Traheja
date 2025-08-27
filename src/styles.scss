@@ -2,10 +2,19 @@
 // src/styles.scss
 @import 'assets/styles/variables';
 @import 'assets/styles/mixins';
+@import 'ngx-lightbox/lightbox.css';
 
 body, html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Helvetica', sans-serif;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('/assets/font/helvetica/Helvetica.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 

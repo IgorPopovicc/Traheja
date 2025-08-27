@@ -1,1 +1,47 @@
-<p>footer works!</p>
+<footer class="footer">
+  <div class="footer-bar"></div>
+
+  <div class="footer-grid">
+    <!-- Logo -->
+    <div class="footer-section logo">
+      <img src="assets/images/logo/footer-logo-mobile.png" alt="Traheja Logo" />
+    </div>
+
+    <!-- Kontakt -->
+    <div class="footer-section contact">
+      <h4>{{ 'FOOTER.CONTACT' | translate }}</h4>
+      <p>
+        <span class="material-icons-outlined">phone</span>
+        +38164 179 20 32
+      </p>
+      <p>
+        <span class="material-icons-outlined">mail</span>
+        <a [href]="'mailto:' + 'gorantraheja@gmail.com'">gorantraheja&#64;gmail.com</a>
+      </p>
+    </div>
+
+    <!-- Ikonice -->
+    <div class="footer-section social">
+      <h4>{{ 'FOOTER.FOLLOW' | translate }}</h4>
+      <div class="icons">
+        <a href="https://instagram.com" target="_blank"><span class="material-icons-outlined">photo_camera</span></a>
+        <a href="https://facebook.com" target="_blank"><span class="material-icons-outlined">facebook</span></a>
+        <a href="https://pinterest.com" target="_blank"><span class="material-icons-outlined">push_pin</span></a>
+      </div>
+    </div>
+
+    <!-- Posao -->
+    <div class="footer-section job">
+      <h4>{{ 'FOOTER.JOB_TITLE' | translate }}</h4>
+      <p>{{ 'FOOTER.JOB_DESC' | translate }}</p>
+      <a class="job-button" [href]="'mailto:' + 'gorantraheja@gmail.com'">
+        {{ 'FOOTER.APPLY' | translate }}
+      </a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    {{ 'FOOTER.WEBSITE_CREATED' | translate }} <a href="https://www.linkedin.com/in/igpopovic" target="_blank">Igor Popovic</a><br>
+    © 2025 Traheja. {{ 'FOOTER.RIGHTS' | translate }}
+  </div>
+</footer>
