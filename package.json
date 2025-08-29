@@ -1,6 +1,13 @@
 {
   "name": "traheja-website",
   "version": "0.0.0",
+  "browserslist": [
+    "> 0.5%",
+    "last 2 versions",
+    "iOS >= 15",
+    "Safari >= 15",
+    "not dead"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
