@@ -7,14 +7,15 @@
     </a>
 
     <ul class="nav-links" [class.active]="isMenuOpen">
-      <li><a routerLink="/">{{ 'NAV.HOME' | translate }}</a></li>
-      <li><a routerLink="/gallery">{{ 'NAV.GALLERY' | translate }}</a></li>
-      <li><a (click)="scrollTo('contact')">{{ 'NAV.CONTACT' | translate }}</a></li>
-      <li><a (click)="scrollTo('about')">{{ 'NAV.ABOUT' | translate }}</a></li>
+      <li><a routerLink="/" (click)="closeMenu()">{{ 'NAV.HOME' | translate }}</a></li>
+      <li><a routerLink="/gallery" (click)="closeMenu()">{{ 'NAV.GALLERY' | translate }}</a></li>
+      <li><a (click)="scrollTo('contact'); closeMenu()">{{ 'NAV.CONTACT' | translate }}</a></li>
+      <li><a (click)="scrollTo('about'); closeMenu()">{{ 'NAV.ABOUT' | translate }}</a></li>
       <li class="language-switch">
-        <span (click)="setLang('serbian')">SR</span>
-        <span (click)="setLang('english')">EN</span>
+        <span (click)="setLang('serbian'); closeMenu()">SR</span>
+        <span (click)="setLang('english'); closeMenu()">EN</span>
       </li>
     </ul>
+
   </div>
 </nav>

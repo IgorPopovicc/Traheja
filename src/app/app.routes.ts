@@ -8,18 +8,49 @@ export const routes: Routes = [{
   path: '',
   component: MainLayoutComponent,
   children: [
-    { path: '', component: HomeComponent },
+    {
+      path: '',
+      component: HomeComponent,
+      data: {
+        seo: {
+          title: 'Traheja — Početna',
+          description: 'Prilagođeni namještaj, stolarija i enterijeri po mjeri.',
+          image: 'https://traheja.vercel.app/assets/images/logo/footer-logo.png',
+        }
+      }
+    },
     {
       path: 'gallery',
-      component: GalleryComponent
+      component: GalleryComponent,
+      data: {
+        seo: {
+          title: 'Traheja — Galerija radova',
+          description: 'Pogledajte naše projekte: kuhinje, dnevne sobe, kancelarije.',
+          image: 'https://traheja.vercel.app/assets/images/logo/footer-logo.png',
+        }
+      }
     },
     {
       path: 'gallery/:categoryId',
-      component: GalleryComponent
+      component: GalleryComponent,
+      data: {
+        seo: {
+          title: 'Traheja — Galerija radova',
+          description: 'Pogledajte naše projekte: kuhinje, dnevne sobe, kancelarije.',
+          image: 'https://traheja.vercel.app/assets/images/logo/footer-logo.png',
+        }
+      }
     },
     {
       path: 'gallery/:categoryId/:projectId',
-      component: GalleryDetailComponent
+      component: GalleryDetailComponent,
+      data: {
+        seo: {
+          title: 'Traheja — Galerija radova',
+          description: 'Pogledajte naše projekte: kuhinje, dnevne sobe, kancelarije.',
+          image: 'https://traheja.vercel.app/assets/images/logo/footer-logo.png',
+        }
+      }
     }
 
   ]

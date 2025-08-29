@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {Router, RouterModule} from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { TranslatePipe, TranslateService } from "@ngx-translate/core";
 
 @Component({
@@ -13,7 +13,11 @@ import { TranslatePipe, TranslateService } from "@ngx-translate/core";
 export class NavbarComponent {
   isMenuOpen = false;
 
-  constructor(private translate: TranslateService, private router: Router) {
+  constructor(
+    private translate: TranslateService,
+    private router: Router,
+    private eRef: ElementRef
+  ) {
     const savedLang = localStorage.getItem('lang') || 'serbian';
     this.translate.setDefaultLang('serbian');
     this.translate.use(savedLang);
@@ -21,6 +25,10 @@ export class NavbarComponent {
 
   toggleMenu(): void {
     this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  closeMenu(): void {
+    this.isMenuOpen = false;
   }
 
   setLang(lang: string): void {
@@ -38,4 +46,10 @@ export class NavbarComponent {
     }
   }
 
+  @HostListener('document:click', ['$event'])
+  clickOutside(event: Event) {
+    if (this.isMenuOpen && !this.eRef.nativeElement.contains(event.target)) {
+      this.isMenuOpen = false;
+    }
+  }
 }
