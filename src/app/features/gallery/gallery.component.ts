@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { NgForOf } from "@angular/common";
+import {NgForOf, NgOptimizedImage} from "@angular/common";
 import {TranslatePipe} from "@ngx-translate/core";
 
 @Component({
@@ -9,11 +9,15 @@ import {TranslatePipe} from "@ngx-translate/core";
   templateUrl: './gallery.component.html',
   imports: [
     NgForOf,
-    TranslatePipe
+    TranslatePipe,
+    NgOptimizedImage
   ],
   styleUrls: ['./gallery.component.scss']
 })
 export class GalleryComponent implements OnInit {
+  intrinsicWidth = 1200;
+  intrinsicHeight = 800;
+
   allCategories = [
     {
       id: 'stambeni',
@@ -75,7 +79,7 @@ export class GalleryComponent implements OnInit {
     {
       id: 'poslovni',
       name: 'CATEGORY.POSLOVNI_PROSTORI',
-      coverImage: 'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/cover.jpg',
+      coverImage: 'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/cover.webp',
       children: [
         {
           id: 'biologique-recherche',
@@ -93,24 +97,24 @@ export class GalleryComponent implements OnInit {
           id: 'gorenje-hisense',
           name: 'Gorenje i Hisense Studio',
           description: 'OBJECT.GORENJE_HISENSE',
-          coverImage: 'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/cover.jpg',
+          coverImage: 'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/cover.webp',
           images: [
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/cover.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-1.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-2.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-3.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-4.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-5.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-6.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-7.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-8.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-9.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-10.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-11.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-12.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-13.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-14.jpg',
-            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-15.jpg',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/cover.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-1.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-2.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-3.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-4.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-5.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-6.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-7.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-8.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-9.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-10.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-11.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-12.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-13.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-14.webp',
+            'assets/images/gallery/Poslovni prostori/Gorenje and Hisense Studio/img-15.webp',
           ]
         }
       ]
@@ -211,5 +215,10 @@ export class GalleryComponent implements OnInit {
     } else {
       this.router.navigate([`/gallery/${item.id}`]);
     }
+  }
+
+  getPrimarySrc(item: any): string {
+    // Ako već sve slike imaš u WebP, samo vrati originalnu putanju
+    return item.coverImage;
   }
 }

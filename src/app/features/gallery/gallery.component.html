@@ -6,8 +6,14 @@
       [class.center-last]="displayItems.length % 2 !== 0 && i === displayItems.length - 1"
       (click)="onCardClick(item)"
     >
-      <div class="image-container">
-        <img [src]="item.coverImage" [alt]="item.name" />
+      <div class="image-container" [class.lcp]="i === 0">
+        <img
+          [ngSrc]="getPrimarySrc(item)"
+          [alt]="item.name | translate"
+          [width]="intrinsicWidth"
+          [height]="intrinsicHeight"
+          [loading]="i === 0 ? 'eager' : 'lazy'"
+        />
         <div class="text-overlay">
           <h2>{{ item.name | translate }}</h2>
         </div>

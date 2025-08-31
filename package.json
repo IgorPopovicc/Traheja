@@ -6,7 +6,9 @@
     "last 2 versions",
     "iOS >= 15",
     "Safari >= 15",
-    "not dead"
+    "not dead",
+    "not op_mini all",
+    "not kaios <= 3"
   ],
   "scripts": {
     "ng": "ng",
