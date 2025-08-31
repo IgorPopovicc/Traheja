@@ -12,7 +12,7 @@
           [alt]="item.name | translate"
           [width]="intrinsicWidth"
           [height]="intrinsicHeight"
-          loading="eager"
+          [priority]="i === 0"
         />
         <div class="text-overlay">
           <h2>{{ item.name | translate }}</h2>
