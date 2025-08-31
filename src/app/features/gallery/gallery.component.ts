@@ -22,56 +22,56 @@ export class GalleryComponent implements OnInit {
     {
       id: 'stambeni',
       name: 'CATEGORY.STAMBENI_PROSTORI',
-      coverImage: 'assets/images/gallery/Stambeni prostori/cover.jpg',
+      coverImage: 'assets/images/gallery/Stambeni prostori/cover.webp',
       children: [
         {
           id: 'stan-1',
           name: 'Stan 1',
           description: 'OBJECT.STAN_1',
-          coverImage: 'assets/images/gallery/Stambeni prostori/Stan 1/img-3.jpg',
+          coverImage: 'assets/images/gallery/Stambeni prostori/Stan 1/img-3.webp',
           images: [
-            'assets/images/gallery/Stambeni prostori/Stan 1/img-1.jpg',
-            'assets/images/gallery/Stambeni prostori/Stan 1/img-2.jpg',
-            'assets/images/gallery/Stambeni prostori/Stan 1/cover.jpg',
-            'assets/images/gallery/Stambeni prostori/Stan 1/img-4.jpg',
+            'assets/images/gallery/Stambeni prostori/Stan 1/img-1.webp',
+            'assets/images/gallery/Stambeni prostori/Stan 1/img-2.webp',
+            'assets/images/gallery/Stambeni prostori/Stan 1/cover.webp',
+            'assets/images/gallery/Stambeni prostori/Stan 1/img-4.webp',
           ]
         },
         {
           id: 'stan-2',
           name: 'Stan 2',
           description: 'OBJECT.STAN_2',
-          coverImage: 'assets/images/gallery/Stambeni prostori/Stan 2/cover.jpg',
+          coverImage: 'assets/images/gallery/Stambeni prostori/Stan 2/cover.webp',
           images: [
-            'assets/images/gallery/Stambeni prostori/Stan 2/img-1.jpg',
-            'assets/images/gallery/Stambeni prostori/Stan 2/img-2.jpg',
-            'assets/images/gallery/Stambeni prostori/Stan 2/img-3.jpg',
-            'assets/images/gallery/Stambeni prostori/Stan 2/img-4.jpg',
-            'assets/images/gallery/Stambeni prostori/Stan 2/img-5.jpg',
-            'assets/images/gallery/Stambeni prostori/Stan 2/img-6.jpg',
+            'assets/images/gallery/Stambeni prostori/Stan 2/img-1.webp',
+            'assets/images/gallery/Stambeni prostori/Stan 2/img-2.webp',
+            'assets/images/gallery/Stambeni prostori/Stan 2/img-3.webp',
+            'assets/images/gallery/Stambeni prostori/Stan 2/img-4.webp',
+            'assets/images/gallery/Stambeni prostori/Stan 2/img-5.webp',
+            'assets/images/gallery/Stambeni prostori/Stan 2/img-6.webp',
           ]
         },
         {
           id: 'razno',
           name: 'Razno',
           description: 'OBJECT.RAZNO',
-          coverImage: 'assets/images/gallery/Stambeni prostori/Razni/cover.jpg',
+          coverImage: 'assets/images/gallery/Stambeni prostori/Razni/cover.webp',
           images: [
-            'assets/images/gallery/Stambeni prostori/Razni/img-1.jpg',
-            'assets/images/gallery/Stambeni prostori/Razni/img-2.jpg',
-            'assets/images/gallery/Stambeni prostori/Razni/img-3.jpg',
-            'assets/images/gallery/Stambeni prostori/Razni/img-4.jpg',
-            'assets/images/gallery/Stambeni prostori/Razni/img-5.jpg',
-            'assets/images/gallery/Stambeni prostori/Razni/img-6.jpg',
-            'assets/images/gallery/Stambeni prostori/Razni/img-7.jpg',
-            'assets/images/gallery/Stambeni prostori/Razni/img-8.JPG',
-            'assets/images/gallery/Stambeni prostori/Razni/img-9.JPG',
-            'assets/images/gallery/Stambeni prostori/Razni/img-10.JPG',
-            'assets/images/gallery/Stambeni prostori/Razni/img-11.jpg',
-            'assets/images/gallery/Stambeni prostori/Razni/img-12.jpg',
-            'assets/images/gallery/Stambeni prostori/Razni/img-13.jpg',
-            'assets/images/gallery/Stambeni prostori/Razni/img-14.jpg',
-            'assets/images/gallery/Stambeni prostori/Razni/img-15.JPG',
-            'assets/images/gallery/Stambeni prostori/Razni/img-16.JPG'
+            'assets/images/gallery/Stambeni prostori/Razni/img-1.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-2.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-3.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-4.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-5.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-6.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-7.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-8.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-9.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-10.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-11.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-12.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-13.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-14.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-15.webp',
+            'assets/images/gallery/Stambeni prostori/Razni/img-16.webp'
           ]
         }
       ]
@@ -85,12 +85,12 @@ export class GalleryComponent implements OnInit {
           id: 'biologique-recherche',
           name: 'Biologique recherche',
           description: 'OBJECT.BIOLOGIQUE_RECHERCHE',
-          coverImage: 'assets/images/gallery/Poslovni prostori/biologique recherche/cover.jpg',
+          coverImage: 'assets/images/gallery/Poslovni prostori/biologique recherche/cover.webp',
           images: [
-            'assets/images/gallery/Poslovni prostori/biologique recherche/cover.jpg',
-            'assets/images/gallery/Poslovni prostori/biologique recherche/img-1.jpg',
-            'assets/images/gallery/Poslovni prostori/biologique recherche/img-2.jpg',
-            'assets/images/gallery/Poslovni prostori/biologique recherche/img-3.jpg',
+            'assets/images/gallery/Poslovni prostori/biologique recherche/cover.webp',
+            'assets/images/gallery/Poslovni prostori/biologique recherche/img-1.webp',
+            'assets/images/gallery/Poslovni prostori/biologique recherche/img-2.webp',
+            'assets/images/gallery/Poslovni prostori/biologique recherche/img-3.webp',
           ]
         },
         {
@@ -122,61 +122,61 @@ export class GalleryComponent implements OnInit {
     {
       id: 'ugostiteljski',
       name: 'CATEGORY.UGOSTITELJSKI_OBJEKTI',
-      coverImage: 'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/cover.jpg',
+      coverImage: 'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/cover.webp',
       children: [
         {
           id: 'frans',
           name: 'Frans',
           description: 'OBJECT.FRANS',
-          coverImage: 'assets/images/gallery/Ugostiteljski objekti/Frans/cover.jpg',
+          coverImage: 'assets/images/gallery/Ugostiteljski objekti/Frans/cover.webp',
           images: [
-            'assets/images/gallery/Ugostiteljski objekti/Frans/img-1.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Frans/img-2.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Frans/img-3.JPG',
-            'assets/images/gallery/Ugostiteljski objekti/Frans/img-4.JPG',
-            'assets/images/gallery/Ugostiteljski objekti/Frans/img-5.JPG',
-            'assets/images/gallery/Ugostiteljski objekti/Frans/img-6.JPG',
-            'assets/images/gallery/Ugostiteljski objekti/Frans/img-7.JPG',
-            'assets/images/gallery/Ugostiteljski objekti/Frans/img-8.jpg',
+            'assets/images/gallery/Ugostiteljski objekti/Frans/img-1.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Frans/img-2.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Frans/img-3.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Frans/img-4.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Frans/img-5.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Frans/img-6.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Frans/img-7.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Frans/img-8.webp',
           ]
         },
         {
           id: 'hotel-amsterdam',
           name: 'Hotel Amsterdam',
           description: 'OBJECT.HOTEL_AMSTERDAM',
-          coverImage: 'assets/images/gallery/Ugostiteljski objekti/Hotel Amsterdam/cover.jpg',
+          coverImage: 'assets/images/gallery/Ugostiteljski objekti/Hotel Amsterdam/cover.webp',
           images: [
-            'assets/images/gallery/Ugostiteljski objekti/Hotel Amsterdam/cover.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Hotel Amsterdam/img-1.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Hotel Amsterdam/img-2.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Hotel Amsterdam/img-3.jpg',
+            'assets/images/gallery/Ugostiteljski objekti/Hotel Amsterdam/cover.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Hotel Amsterdam/img-1.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Hotel Amsterdam/img-2.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Hotel Amsterdam/img-3.webp',
           ]
         },
         {
           id: 'kod-deda-stavre',
           name: 'Kod Deda Stavre',
           description: 'OBJECT.KOD_DEDA_STAVRE',
-          coverImage: 'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/cover.jpg',
+          coverImage: 'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/cover.webp',
           images: [
-            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/cover.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/img-1.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/img-2.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/img-3.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/img-4.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/img-5.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/img-6.jpg',
+            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/cover.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/img-1.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/img-2.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/img-3.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/img-4.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/img-5.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Kod Deda Stavre/img-6.webp',
           ]
         },
         {
           id: 'mokum',
           name: 'Mokum',
           description: 'OBJECT.MOKUM',
-          coverImage: 'assets/images/gallery/Ugostiteljski objekti/Mokum/cover.jpg',
+          coverImage: 'assets/images/gallery/Ugostiteljski objekti/Mokum/cover.webp',
           images: [
-            'assets/images/gallery/Ugostiteljski objekti/Mokum/img-1.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Mokum/img-2.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Mokum/img-3.jpg',
-            'assets/images/gallery/Ugostiteljski objekti/Mokum/img-4.jpg',
+            'assets/images/gallery/Ugostiteljski objekti/Mokum/img-1.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Mokum/img-2.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Mokum/img-3.webp',
+            'assets/images/gallery/Ugostiteljski objekti/Mokum/img-4.webp',
           ]
         }
       ]
@@ -218,7 +218,6 @@ export class GalleryComponent implements OnInit {
   }
 
   getPrimarySrc(item: any): string {
-    // Ako već sve slike imaš u WebP, samo vrati originalnu putanju
     return item.coverImage;
   }
 }
