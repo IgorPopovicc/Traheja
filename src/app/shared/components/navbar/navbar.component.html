@@ -3,7 +3,11 @@
     <button class="menu-toggle" (click)="toggleMenu()">☰</button>
 
     <a routerLink="/" class="logo">
-      <img src="assets/images/logo/logo.svg" alt="Traheja Logo">
+      <img src="assets/images/logo/logo.svg"
+           width="160"
+           height="90"
+           decoding="async"
+           alt="Traheja Logo">
     </a>
 
     <ul class="nav-links" [class.active]="isMenuOpen">
