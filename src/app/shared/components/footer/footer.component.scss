@@ -1,5 +1,5 @@
 .footer {
-  background-color: #000;
+  background-color: #363536;
   color: #fff;
   font-family: 'Inter', sans-serif;
 
@@ -81,7 +81,7 @@
     text-align: center;
     padding: 20px 10px;
     font-size: 14px;
-    background-color: #000;
+    background-color: #363536;
     border-top: 1px solid #222;
   }
 
@@ -95,8 +95,7 @@
 .job-button {
   margin-top: 12px;
   display: inline-block;
-  background-color: #3cd147;
-  color: black;
+  background-color: #2aa733;
   font-weight: 600;
   padding: 8px 20px;
   border-radius: 4px;
@@ -104,6 +103,20 @@
   transition: background-color 0.3s;
 
   &:hover {
-    background-color: #2aa733;
+    background-color: #3cd147;
+    color: black !important;
   }
 }
+
+.footer-bottom a {
+  color: #2aa733;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
